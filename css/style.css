@@ -88,6 +88,26 @@ a {
 
 /* шапка */
 
+.menu-nav {
+    font-family: Roboto;
+font-style: normal;
+font-weight: 500;
+font-size: 14px;
+line-height: 16px;
+letter-spacing: 0.02em;
+
+color: #212121;
+}
+
+.menu-contacts .link{    
+	color: var(--secondary-text-color);
+	
+font-family: Roboto;
+font-style: normal;
+font-weight: 500;
+}
+
+
 .header-main {
 	color: white;
 	background-color: #2F303A;
@@ -115,12 +135,10 @@ a {
 	background-color: var(--secondary-bg-color);
 }
 
-.button.second:hover,
-.button.second:focus {
-	color: var(--primary-white-color);
-	background-color: var(--accent-color);
+.nav .link:hover,
+.nav .link:focus {
+    color: var(--accent-color);
 }
-
 
 /* features */
 
@@ -225,4 +243,10 @@ letter-spacing: 0.03em;
 	line-height: 30px;
 	letter-spacing: 0.03em;
 	color: #757575;
+}
+
+.button.second:hover,
+.button.second:focus {
+color: var(--primary-white-color);
+background-color: var(--accent-color);
 }
