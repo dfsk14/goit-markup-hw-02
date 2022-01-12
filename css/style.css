@@ -89,21 +89,24 @@ a {
 /* шапка */
 
 .menu-nav {
-	font-family: Roboto;
-	font-style: normal;
-	font-weight: 500;
-	font-size: 14px;
-	line-height: 16px;
-	letter-spacing: 0.02em;
-	color: #212121;
+    font-family: Roboto;
+font-style: normal;
+font-weight: 500;
+font-size: 14px;
+line-height: 16px;
+letter-spacing: 0.02em;
+
+color: #212121;
 }
 
-.menu-contacts .link {
+.menu-contacts .link{    
 	color: var(--secondary-text-color);
-	font-family: Roboto;
-	font-style: normal;
-	font-weight: 500;
+	
+font-family: Roboto;
+font-style: normal;
+font-weight: 500;
 }
+
 
 .header-main {
 	color: white;
@@ -134,9 +137,8 @@ a {
 
 .nav .link:hover,
 .nav .link:focus {
-	color: var(--accent-color);
+    color: var(--accent-color);
 }
-
 
 /* features */
 
@@ -242,8 +244,9 @@ letter-spacing: 0.03em;
 	letter-spacing: 0.03em;
 	color: #757575;
 }
+
 .button.second:hover,
 .button.second:focus {
-	color: var(--primary-white-color);
-	background-color: var(--accent-color);
+color: var(--primary-white-color);
+background-color: var(--accent-color);
 }
